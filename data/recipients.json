@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-02",
+  "coverage": "Первичная база, не полный реестр всех организаций и домов",
+  "important": "Электронная почта организации не равна юридически надлежащему каналу подачи электронного обращения. Адресата по конкретному дому подтвердить в ГИС ЖКХ.",
+  "records": [
+    {
+      "id": "serpukhov-administration",
+      "name": "Администрация городского округа Серпухов",
+      "areas": [
+        "Серпухов",
+        "Протвино",
+        "Пущино",
+        "городской округ Серпухов"
+      ],
+      "topics": [
+        "roads",
+        "light",
+        "nature",
+        "transport",
+        "other"
+      ],
+      "email": null,
+      "phone": null,
+      "website": "https://serpuhov.ru/",
+      "appeal_url": "https://serpuhov.ru/virtualnaya-priemnaya/",
+      "status": "official_portal_check_required",
+      "notes": "Электронные обращения через официальную приёмную; e-mail из устаревших публикаций намеренно не указан",
+      "source": "https://base.garant.ru/19218725/"
+    },
+    {
+      "id": "mosreg-government",
+      "name": "Правительство Московской области",
+      "areas": [
+        "Московская область"
+      ],
+      "topics": [
+        "other",
+        "roads",
+        "transport",
+        "housing"
+      ],
+      "email": null,
+      "phone": "8 (800) 550-50-30",
+      "website": "https://mosreg.ru/",
+      "appeal_url": "https://mosreg.ru/web-reception",
+      "status": "official_verified",
+      "notes": "Официальная страница прямо предупреждает: опубликованные e-mail не предназначены для электронных обращений граждан",
+      "source": "https://mosreg.ru/kontakty"
+    },
+    {
+      "id": "mstg",
+      "name": "Министерство по содержанию территорий и государственному жилищному надзору Московской области",
+      "areas": [
+        "Московская область"
+      ],
+      "topics": [
+        "housing",
+        "trash"
+      ],
+      "email": "mstg@mosreg.ru",
+      "phone": "+7 (498) 602-84-61",
+      "website": "https://mstg.mosreg.ru/",
+      "appeal_url": "https://mosreg.ru/web-reception",
+      "status": "official_verified_contact",
+      "notes": "E-mail информационный; официальное обращение предпочтительно через установленный канал",
+      "source": "https://mosreg.ru/pravitelstvo/struktura/gubernator/vice-gubernator-moskovskoi-oblasti-6/ministerstvo-po-soderzhaniyu-territorii-i-gos-zhil-nadzoru"
+    },
+    {
+      "id": "kashirsky-tko",
+      "name": "ООО «Каширский региональный оператор»",
+      "areas": [
+        "городской округ Серпухов"
+      ],
+      "topics": [
+        "trash"
+      ],
+      "email": "info@kashirskyro.ru",
+      "phone": "+7 (968) 619-44-44",
+      "website": null,
+      "appeal_url": null,
+      "status": "published_contact_verify_before_submission",
+      "notes": "Контакты опубликованы для вопросов и заключения договора; приём жалоб по этому e-mail не подтверждён",
+      "source": "https://otv-media.ru/news/obshchestvo/ooo-kashirskiy-regionalnyy-operator-nachinaet-okazyvat-uslugu-po-obrashcheniyu-s-tko-v-svyazi-s-prek/"
+    },
+    {
+      "id": "uk-zhilishchnik",
+      "name": "МУП «Жилищник» (реестровые данные)",
+      "areas": [
+        "Серпухов"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": "jilichnik@mail.ru",
+      "phone": "+7 (4967) 76-09-33",
+      "website": "https://www.jilisnik.ru/",
+      "appeal_url": null,
+      "status": "secondary_registry_verify_against_gis",
+      "notes": "Не назначать конкретному дому без проверки принадлежности по ГИС ЖКХ; реестры расходятся в названии юридического лица",
+      "source": "https://rgex.ru/jkh/uk/moskovskaya-oblast/serpuhov/"
+    },
+    {
+      "id": "uk-remontnik",
+      "name": "ООО «Ремонтник»",
+      "areas": [
+        "Серпухов"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": "oooremontnik@mail.ru",
+      "phone": "+7 (4967) 37-46-20",
+      "website": "https://www.oooremontnik.ru/",
+      "appeal_url": null,
+      "status": "secondary_registry_verify_against_gis",
+      "notes": "Проверить актуальность контакта и управление конкретным домом в ГИС ЖКХ",
+      "source": "https://rgex.ru/jkh/uk/moskovskaya-oblast/serpuhov/"
+    },
+    {
+      "id": "uk-rgh",
+      "name": "Организация «Развитие городского хозяйства» (уточнить юридическое название)",
+      "areas": [
+        "Серпухов"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": "ukrgh@mail.ru",
+      "phone": null,
+      "website": "https://ukrgh.ru/",
+      "appeal_url": null,
+      "status": "secondary_registry_ambiguous",
+      "notes": "В источнике имеются неоднозначные наименования; требует ручной проверки",
+      "source": "https://rgex.ru/jkh/uk/moskovskaya-oblast/serpuhov/"
+    },
+    {
+      "id": "serpukhov-teplo",
+      "name": "Серпуховская Теплосеть",
+      "areas": [
+        "Серпухов"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": "info@serpuhovteplo.ru",
+      "phone": "+7 (4967) 39-90-55",
+      "website": "https://serpuhovteplo.ru/",
+      "appeal_url": null,
+      "status": "secondary_directory_verify",
+      "notes": "Для вопросов теплоснабжения; границы ответственности и действующие реквизиты уточняются",
+      "source": "https://serpuhov.esbd.ru/gkh"
+    },
+    {
+      "id": "serpukhov-blagoustroistvo",
+      "name": "Комбинат благоустройства Серпухов",
+      "areas": [
+        "Серпухов"
+      ],
+      "topics": [
+        "nature",
+        "roads",
+        "light"
+      ],
+      "email": "kbserpuhov@yandex.ru",
+      "phone": "+7 (4967) 76-12-86",
+      "website": "https://kbserpuhov.ru/",
+      "appeal_url": null,
+      "status": "secondary_directory_verify",
+      "notes": "Компетенция по конкретному адресу не установлена; только для поиска контакта, не как автоматический адресат",
+      "source": "https://serpuhov.esbd.ru/gkh"
+    },
+    {
+      "id": "mosreg-dobrodel",
+      "name": "Портал «Добродел»",
+      "areas": [
+        "Московская область"
+      ],
+      "topics": [
+        "housing",
+        "trash",
+        "roads",
+        "light",
+        "transport",
+        "nature",
+        "other"
+      ],
+      "email": null,
+      "phone": null,
+      "website": "https://dobrodel.mosreg.ru/",
+      "appeal_url": "https://dobrodel.mosreg.ru/",
+      "status": "official_portal",
+      "notes": "Региональный сервис сообщений о проблемах; не заменяет выбор компетентного ведомства",
+      "source": "https://dobrodel.mosreg.ru/"
+    },
+    {
+      "id": "gis-zhkh",
+      "name": "ГИС ЖКХ — реестр управляющих организаций",
+      "areas": [
+        "Российская Федерация"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": null,
+      "phone": null,
+      "website": "https://dom.gosuslugi.ru/",
+      "appeal_url": "https://dom.gosuslugi.ru/",
+      "status": "official_registry",
+      "notes": "Использовать для подтверждения управляющей организации по адресу дома",
+      "source": "https://cdn.dom.gosuslugi.ru/webhelp/topics/public_part/management_company_and_solution_list_och/t_search_company-och.html"
+    }
+  ]
+}
