@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_at": "2026-11-02",
-  "coverage": "Первичная база, не полный реестр всех организаций и домов",
+  "coverage": "Расширенный справочник: контакты требуют проверки перед отправкой, выбор УК по дому производится через ГИС ЖКХ",
   "important": "Электронная почта организации не равна юридически надлежащему каналу подачи электронного обращения. Адресата по конкретному дому подтвердить в ГИС ЖКХ.",
   "records": [
     {
@@ -209,6 +209,243 @@
       "status": "official_registry",
       "notes": "Использовать для подтверждения управляющей организации по адресу дома",
       "source": "https://cdn.dom.gosuslugi.ru/webhelp/topics/public_part/management_company_and_solution_list_och/t_search_company-och.html"
+    },
+    {
+      "id": "uk-dobry-dom",
+      "name": "ООО «Добрый Дом»",
+      "areas": [
+        "Серпухов"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": null,
+      "phone": null,
+      "address": "Серпухов, ул. Войкова, 36/1",
+      "website": null,
+      "appeal_url": null,
+      "status": "directory_contact_verify_before_submission",
+      "notes": "Проверьте актуальность и принадлежность дома в ГИС ЖКХ; источник справочный. E-mail не гарантирует официальную регистрацию обращения.",
+      "source": "https://www.otv-media.ru/news/obshchestvo/zhitelyam-serpukhova-napomnili-adresa-upravlyayushchikh-kompaniy-gde-mozhno-poluchit-snegouborochnyy/"
+    },
+    {
+      "id": "uk-upravdom-yug",
+      "name": "ООО «Управдом Юг Подмосковья»",
+      "areas": [
+        "Серпухов"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": null,
+      "phone": null,
+      "address": "Серпухов, 1-я Московская, 44",
+      "website": null,
+      "appeal_url": null,
+      "status": "directory_contact_verify_before_submission",
+      "notes": "Проверьте актуальность и принадлежность дома в ГИС ЖКХ; источник справочный. E-mail не гарантирует официальную регистрацию обращения.",
+      "source": "https://www.otv-media.ru/news/obshchestvo/zhitelyam-serpukhova-napomnili-adresa-upravlyayushchikh-kompaniy-gde-mozhno-poluchit-snegouborochnyy/"
+    },
+    {
+      "id": "uk-upravdom-plus",
+      "name": "ООО «Управдом Юг Плюс»",
+      "areas": [
+        "Серпухов"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": null,
+      "phone": null,
+      "address": "Серпухов, 1-я Московская, 44",
+      "website": null,
+      "appeal_url": null,
+      "status": "directory_contact_verify_before_submission",
+      "notes": "Проверьте актуальность и принадлежность дома в ГИС ЖКХ; источник справочный. E-mail не гарантирует официальную регистрацию обращения.",
+      "source": "https://www.otv-media.ru/news/obshchestvo/zhitelyam-serpukhova-napomnili-adresa-upravlyayushchikh-kompaniy-gde-mozhno-poluchit-snegouborochnyy/"
+    },
+    {
+      "id": "uk-paritet",
+      "name": "ООО «Паритет»",
+      "areas": [
+        "Серпухов"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": null,
+      "phone": null,
+      "address": "Серпухов, 1-я Московская, 44",
+      "website": null,
+      "appeal_url": null,
+      "status": "directory_contact_verify_before_submission",
+      "notes": "Проверьте актуальность и принадлежность дома в ГИС ЖКХ; источник справочный. E-mail не гарантирует официальную регистрацию обращения.",
+      "source": "https://www.otv-media.ru/news/obshchestvo/zhitelyam-serpukhova-napomnili-adresa-upravlyayushchikh-kompaniy-gde-mozhno-poluchit-snegouborochnyy/"
+    },
+    {
+      "id": "uk-prosto",
+      "name": "ООО «Про-СТО»",
+      "areas": [
+        "Протвино"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": null,
+      "phone": null,
+      "address": "Протвино, пр-т Академика Сахарова, 2 к. 1, офис 15",
+      "website": null,
+      "appeal_url": null,
+      "status": "directory_contact_verify_before_submission",
+      "notes": "Проверьте актуальность и принадлежность дома в ГИС ЖКХ; источник справочный. E-mail не гарантирует официальную регистрацию обращения.",
+      "source": "https://www.otv-media.ru/news/obshchestvo/zhitelyam-serpukhova-napomnili-adresa-upravlyayushchikh-kompaniy-gde-mozhno-poluchit-snegouborochnyy/"
+    },
+    {
+      "id": "uk-partner-ultra",
+      "name": "ООО «Партнёр Ультра Сервис»",
+      "areas": [
+        "Протвино"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": null,
+      "phone": null,
+      "address": "Протвино, ул. Южная, 6",
+      "website": null,
+      "appeal_url": null,
+      "status": "directory_contact_verify_before_submission",
+      "notes": "Проверьте актуальность и принадлежность дома в ГИС ЖКХ; источник справочный. E-mail не гарантирует официальную регистрацию обращения.",
+      "source": "https://www.otv-media.ru/news/obshchestvo/zhitelyam-serpukhova-napomnili-adresa-upravlyayushchikh-kompaniy-gde-mozhno-poluchit-snegouborochnyy/"
+    },
+    {
+      "id": "uk-raykom",
+      "name": "ООО «Райком Сервис»",
+      "areas": [
+        "Серпухов"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": null,
+      "phone": "+7 925 679-32-54",
+      "address": "Серпухов, ул. Оборонная, 19",
+      "website": null,
+      "appeal_url": null,
+      "status": "directory_contact_verify_before_submission",
+      "notes": "Проверьте актуальность и принадлежность дома в ГИС ЖКХ; источник справочный. E-mail не гарантирует официальную регистрацию обращения.",
+      "source": "https://www.otv-media.ru/news/obshchestvo/zhitelyam-serpukhova-napomnili-adresa-upravlyayushchikh-kompaniy-gde-mozhno-poluchit-snegouborochnyy/"
+    },
+    {
+      "id": "uk-soyuz",
+      "name": "ООО «Союз-ЖКХ»",
+      "areas": [
+        "Серпухов"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": null,
+      "phone": "+7 925 679-32-54",
+      "address": "Серпухов, ул. Оборонная, 19",
+      "website": null,
+      "appeal_url": null,
+      "status": "directory_contact_verify_before_submission",
+      "notes": "Проверьте актуальность и принадлежность дома в ГИС ЖКХ; источник справочный. E-mail не гарантирует официальную регистрацию обращения.",
+      "source": "https://www.otv-media.ru/news/obshchestvo/zhitelyam-serpukhova-napomnili-adresa-upravlyayushchikh-kompaniy-gde-mozhno-poluchit-snegouborochnyy/"
+    },
+    {
+      "id": "uk-serpregion",
+      "name": "ООО «Серпрегион Большевик Сервис»",
+      "areas": [
+        "Большевик"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": null,
+      "phone": null,
+      "address": "Большевик, ул. Молодёжная, 19–21",
+      "website": null,
+      "appeal_url": null,
+      "status": "directory_contact_verify_before_submission",
+      "notes": "Проверьте актуальность и принадлежность дома в ГИС ЖКХ; источник справочный. E-mail не гарантирует официальную регистрацию обращения.",
+      "source": "https://www.otv-media.ru/news/obshchestvo/zhitelyam-serpukhova-napomnili-adresa-upravlyayushchikh-kompaniy-gde-mozhno-poluchit-snegouborochnyy/"
+    },
+    {
+      "id": "uk-puschino",
+      "name": "МУП «Коммунальная служба города Пущино»",
+      "areas": [
+        "Пущино"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": "info@жкх-пущино.рф",
+      "phone": "+7 (4967) 73-25-79",
+      "address": "Пущино, микрорайон В, 2",
+      "website": null,
+      "appeal_url": null,
+      "status": "directory_contact_verify_before_submission",
+      "notes": "Проверьте актуальность и принадлежность дома в ГИС ЖКХ; источник справочный. E-mail не гарантирует официальную регистрацию обращения.",
+      "source": "https://dominfo.ru/uk/mup-kommunalnaya-slujba-goroda-pushchino-5039005352"
+    },
+    {
+      "id": "uk-protvino",
+      "name": "МУП «УЖКХ» Протвино",
+      "areas": [
+        "Протвино"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": "ugkh-protvino@mail.ru",
+      "phone": "+7 (4967) 74-28-51",
+      "address": "Протвино, Центральный проезд, 3",
+      "website": null,
+      "appeal_url": null,
+      "status": "directory_contact_verify_before_submission",
+      "notes": "Проверьте актуальность и принадлежность дома в ГИС ЖКХ; источник справочный. E-mail не гарантирует официальную регистрацию обращения.",
+      "source": "https://domik-mo.ru/upravlyayushchaya-kompaniya/8658721"
+    },
+    {
+      "id": "gzhi-local",
+      "name": "Территориальный отдел жилищного надзора № 8",
+      "areas": [
+        "Серпухов",
+        "Протвино",
+        "Пущино"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": "gzhi.to08@mosreg.ru",
+      "phone": "+7 985 200-97-83",
+      "address": "Серпухов, ул. Советская, 80/8",
+      "website": null,
+      "appeal_url": null,
+      "status": "directory_contact_verify_before_submission",
+      "notes": "Проверьте актуальность и принадлежность дома в ГИС ЖКХ; источник справочный. E-mail не гарантирует официальную регистрацию обращения.",
+      "source": "https://gzhi.mosreg.ru/ov/struktura-organa-vlasti/rukovoditel-glavnogo-upravleniya-moskovskoy-oblasti-gosudarstvennaya-zhilishchnaya-inspekciya-v-range-ministra-glavnyy-gosudarstvennyy-zhilishchnyy-inspektor-moskovskoy-oblasti/zamestiteli-rukovoditelya-glavnogo-upravleniya-po-territoriyam/zamestitel-rukovoditelya-glavnogo-upravleniya-1/territorialnyy-otdel-no-8-chehovskiy-rayon-serpuhovskiy-rayon-g-o-protvino-g-o-pushchino-g-o-serpuhov-g-p-chehov"
+    },
+    {
+      "id": "gosuslugi-dom",
+      "name": "Госуслуги Дом — обращения в управляющую организацию",
+      "areas": [
+        "Серпухов",
+        "Протвино",
+        "Пущино"
+      ],
+      "topics": [
+        "housing"
+      ],
+      "email": null,
+      "phone": null,
+      "website": "https://dom.gosuslugi.ru/",
+      "appeal_url": "https://dom.gosuslugi.ru/",
+      "status": "official_portal",
+      "notes": "Для определения управляющей организации по дому и направления обращения",
+      "source": "https://dom.gosuslugi.ru/"
     }
   ]
 }
