@@ -28,3 +28,19 @@ jobs:
       - name: Deploy Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Check public pages and login form
+        run: |
+          set -e
+          for i in $(seq 1 15); do
+            if curl -fLsS --max-time 12 "https://moi-serpuhov.ru/redakciya-2026.html?deployment=${GITHUB_SHA}" -o /tmp/adm.html && grep -q 'request_link' /tmp/adm.html; then
+              echo "Admin page is live"
+              break
+            fi
+            if [ "$i" -eq 15 ]; then echo "Admin page not published"; exit 1; fi
+            sleep 8
+          done
+          curl -fLsS --max-time 15 "https://moi-serpuhov.ru/" -o /tmp/index.html
+          grep -q 'Passwordless admin sign-in' /tmp/index.html
+          curl -fLsS --max-time 15 "https://moi-serpuhov.ru/narodny-kontrol.html" -o /tmp/control.html
+          grep -q 'caseForm' /tmp/control.html
+          echo "All production pages return correct content"
