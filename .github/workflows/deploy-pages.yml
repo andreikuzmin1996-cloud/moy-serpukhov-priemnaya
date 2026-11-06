@@ -41,6 +41,9 @@ jobs:
           done
           curl -fLsS --max-time 15 "https://moi-serpuhov.ru/" -o /tmp/index.html
           grep -q 'Passwordless admin sign-in' /tmp/index.html
+          curl -fLsS --max-time 15 "https://moi-serpuhov.ru/redakciya/?deployment=${GITHUB_SHA}" -o /tmp/admin-dir.html
+          grep -q 'request_link' /tmp/admin-dir.html
+          if grep -q 'File not found' /tmp/admin-dir.html; then exit 1; fi
           curl -fLsS --max-time 15 "https://moi-serpuhov.ru/narodny-kontrol.html" -o /tmp/control.html
           grep -q 'caseForm' /tmp/control.html
           echo "All production pages return correct content"
