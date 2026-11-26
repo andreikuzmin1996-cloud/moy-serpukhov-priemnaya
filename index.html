@@ -28,6 +28,7 @@
  const status=document.createElement("div");status.className="info";status.setAttribute("role","status");status.style.marginTop="14px";gate.append(status);
  const allow=()=>{window.MoiAnalytics?.track("appeal_open");window.MAX_VALIDATED_INIT_DATA=payload;form.classList.remove("hidden");history.classList.remove("hidden");status.textContent="Подписка на канал подтверждена. Доступ открыт.";gate.querySelector("h2").textContent="Доступ подтверждён"};
  const payload=(window.WebApp && window.WebApp.initData) || new URLSearchParams(location.hash.substring(1)).get("WebAppData") || "";
+ if(payload){const battle=document.createElement("a");battle.href="/battle/";battle.textContent="🎮 Битва районов — играть";battle.style.cssText="display:block;margin-top:12px;padding:12px;border:1px solid currentColor;border-radius:10px;font-weight:700;text-align:center";battle.addEventListener("click",e=>{try{sessionStorage.setItem("moi-battle-max-init",payload)}catch{e.preventDefault();status.textContent="Не удалось передать вход. Проверьте настройки хранения данных MAX."}});gate.append(battle)}
  if(!payload){status.textContent="Для продолжения нажмите выше «2. Открыть AI-приёмную в MAX →» и запустите мини-приложение в боте. Обычный браузер не подтверждает подписку.";return}
  status.textContent="Проверяем подписку в MAX…"; if(window.WebApp && typeof window.WebApp.ready==="function") window.WebApp.ready();
  try{
